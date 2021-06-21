@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C73F3AF26802A190075B7A6 /* PinSpinner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6C73F3AE26802A190075B7A6 /* PinSpinner WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C73F3B426802A1A0075B7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C73F3B326802A1A0075B7A6 /* Assets.xcassets */; };
+		6C73F3BB26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C73F3BA26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C73F3C026802A1A0075B7A6 /* PinSpinnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C73F3BF26802A1A0075B7A6 /* PinSpinnerApp.swift */; };
+		6C73F3C226802A1A0075B7A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C73F3C126802A1A0075B7A6 /* ContentView.swift */; };
+		6C73F3C426802A1A0075B7A6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C73F3C326802A1A0075B7A6 /* NotificationController.swift */; };
+		6C73F3C626802A1A0075B7A6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C73F3C526802A1A0075B7A6 /* NotificationView.swift */; };
+		6C73F3C826802A1A0075B7A6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C73F3C726802A1A0075B7A6 /* ComplicationController.swift */; };
+		6C73F3CA26802A1B0075B7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C73F3C926802A1B0075B7A6 /* Assets.xcassets */; };
+		6C73F3CD26802A1B0075B7A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C73F3CC26802A1B0075B7A6 /* Preview Assets.xcassets */; };
+		6C73F3D926802A1B0075B7A6 /* PinSpinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C73F3D826802A1B0075B7A6 /* PinSpinnerTests.swift */; };
+		6C73F3E426802A1B0075B7A6 /* PinSpinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C73F3E326802A1B0075B7A6 /* PinSpinnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C73F3B026802A190075B7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C73F3A426802A190075B7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C73F3AD26802A190075B7A6;
+			remoteInfo = "PinSpinner WatchKit App";
+		};
+		6C73F3BC26802A1A0075B7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C73F3A426802A190075B7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C73F3B926802A1A0075B7A6;
+			remoteInfo = "PinSpinner WatchKit Extension";
+		};
+		6C73F3D526802A1B0075B7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C73F3A426802A190075B7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C73F3B926802A1A0075B7A6;
+			remoteInfo = "PinSpinner WatchKit Extension";
+		};
+		6C73F3E026802A1B0075B7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C73F3A426802A190075B7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C73F3AD26802A190075B7A6;
+			remoteInfo = "PinSpinner WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C73F3EB26802A1B0075B7A6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C73F3BB26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3EF26802A1B0075B7A6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6C73F3AF26802A190075B7A6 /* PinSpinner WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C73F3AA26802A190075B7A6 /* PinSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C73F3AE26802A190075B7A6 /* PinSpinner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PinSpinner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C73F3B326802A1A0075B7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C73F3B526802A1A0075B7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C73F3BA26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PinSpinner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C73F3BF26802A1A0075B7A6 /* PinSpinnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinSpinnerApp.swift; sourceTree = "<group>"; };
+		6C73F3C126802A1A0075B7A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C73F3C326802A1A0075B7A6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6C73F3C526802A1A0075B7A6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		6C73F3C726802A1A0075B7A6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6C73F3C926802A1B0075B7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C73F3CC26802A1B0075B7A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C73F3CE26802A1B0075B7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C73F3CF26802A1B0075B7A6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6C73F3D426802A1B0075B7A6 /* PinSpinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinSpinnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C73F3D826802A1B0075B7A6 /* PinSpinnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinSpinnerTests.swift; sourceTree = "<group>"; };
+		6C73F3DA26802A1B0075B7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C73F3DF26802A1B0075B7A6 /* PinSpinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinSpinnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C73F3E326802A1B0075B7A6 /* PinSpinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinSpinnerUITests.swift; sourceTree = "<group>"; };
+		6C73F3E526802A1B0075B7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C73F3B726802A1A0075B7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3D126802A1B0075B7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3DC26802A1B0075B7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C73F3A326802A190075B7A6 = {
+			isa = PBXGroup;
+			children = (
+				6C73F3B226802A190075B7A6 /* PinSpinner WatchKit App */,
+				6C73F3BE26802A1A0075B7A6 /* PinSpinner WatchKit Extension */,
+				6C73F3D726802A1B0075B7A6 /* PinSpinnerTests */,
+				6C73F3E226802A1B0075B7A6 /* PinSpinnerUITests */,
+				6C73F3AB26802A190075B7A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C73F3AB26802A190075B7A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C73F3AA26802A190075B7A6 /* PinSpinner.app */,
+				6C73F3AE26802A190075B7A6 /* PinSpinner WatchKit App.app */,
+				6C73F3BA26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex */,
+				6C73F3D426802A1B0075B7A6 /* PinSpinnerTests.xctest */,
+				6C73F3DF26802A1B0075B7A6 /* PinSpinnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C73F3B226802A190075B7A6 /* PinSpinner WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6C73F3B326802A1A0075B7A6 /* Assets.xcassets */,
+				6C73F3B526802A1A0075B7A6 /* Info.plist */,
+			);
+			path = "PinSpinner WatchKit App";
+			sourceTree = "<group>";
+		};
+		6C73F3BE26802A1A0075B7A6 /* PinSpinner WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6C73F3BF26802A1A0075B7A6 /* PinSpinnerApp.swift */,
+				6C73F3C126802A1A0075B7A6 /* ContentView.swift */,
+				6C73F3C326802A1A0075B7A6 /* NotificationController.swift */,
+				6C73F3C526802A1A0075B7A6 /* NotificationView.swift */,
+				6C73F3C726802A1A0075B7A6 /* ComplicationController.swift */,
+				6C73F3C926802A1B0075B7A6 /* Assets.xcassets */,
+				6C73F3CE26802A1B0075B7A6 /* Info.plist */,
+				6C73F3CF26802A1B0075B7A6 /* PushNotificationPayload.apns */,
+				6C73F3CB26802A1B0075B7A6 /* Preview Content */,
+			);
+			path = "PinSpinner WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6C73F3CB26802A1B0075B7A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C73F3CC26802A1B0075B7A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C73F3D726802A1B0075B7A6 /* PinSpinnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C73F3D826802A1B0075B7A6 /* PinSpinnerTests.swift */,
+				6C73F3DA26802A1B0075B7A6 /* Info.plist */,
+			);
+			path = PinSpinnerTests;
+			sourceTree = "<group>";
+		};
+		6C73F3E226802A1B0075B7A6 /* PinSpinnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C73F3E326802A1B0075B7A6 /* PinSpinnerUITests.swift */,
+				6C73F3E526802A1B0075B7A6 /* Info.plist */,
+			);
+			path = PinSpinnerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C73F3A926802A190075B7A6 /* PinSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C73F3F026802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinner" */;
+			buildPhases = (
+				6C73F3A826802A190075B7A6 /* Resources */,
+				6C73F3EF26802A1B0075B7A6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C73F3B126802A190075B7A6 /* PBXTargetDependency */,
+			);
+			name = PinSpinner;
+			productName = PinSpinner;
+			productReference = 6C73F3AA26802A190075B7A6 /* PinSpinner.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6C73F3AD26802A190075B7A6 /* PinSpinner WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C73F3EC26802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinner WatchKit App" */;
+			buildPhases = (
+				6C73F3AC26802A190075B7A6 /* Resources */,
+				6C73F3EB26802A1B0075B7A6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C73F3BD26802A1A0075B7A6 /* PBXTargetDependency */,
+			);
+			name = "PinSpinner WatchKit App";
+			productName = "PinSpinner WatchKit App";
+			productReference = 6C73F3AE26802A190075B7A6 /* PinSpinner WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6C73F3B926802A1A0075B7A6 /* PinSpinner WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C73F3E826802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinner WatchKit Extension" */;
+			buildPhases = (
+				6C73F3B626802A1A0075B7A6 /* Sources */,
+				6C73F3B726802A1A0075B7A6 /* Frameworks */,
+				6C73F3B826802A1A0075B7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PinSpinner WatchKit Extension";
+			productName = "PinSpinner WatchKit Extension";
+			productReference = 6C73F3BA26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		6C73F3D326802A1B0075B7A6 /* PinSpinnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C73F3F326802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinnerTests" */;
+			buildPhases = (
+				6C73F3D026802A1B0075B7A6 /* Sources */,
+				6C73F3D126802A1B0075B7A6 /* Frameworks */,
+				6C73F3D226802A1B0075B7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C73F3D626802A1B0075B7A6 /* PBXTargetDependency */,
+			);
+			name = PinSpinnerTests;
+			productName = PinSpinnerTests;
+			productReference = 6C73F3D426802A1B0075B7A6 /* PinSpinnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C73F3DE26802A1B0075B7A6 /* PinSpinnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C73F3F626802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinnerUITests" */;
+			buildPhases = (
+				6C73F3DB26802A1B0075B7A6 /* Sources */,
+				6C73F3DC26802A1B0075B7A6 /* Frameworks */,
+				6C73F3DD26802A1B0075B7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C73F3E126802A1B0075B7A6 /* PBXTargetDependency */,
+			);
+			name = PinSpinnerUITests;
+			productName = PinSpinnerUITests;
+			productReference = 6C73F3DF26802A1B0075B7A6 /* PinSpinnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C73F3A426802A190075B7A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6C73F3A926802A190075B7A6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6C73F3AD26802A190075B7A6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6C73F3B926802A1A0075B7A6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6C73F3D326802A1B0075B7A6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6C73F3B926802A1A0075B7A6;
+					};
+					6C73F3DE26802A1B0075B7A6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6C73F3AD26802A190075B7A6;
+					};
+				};
+			};
+			buildConfigurationList = 6C73F3A726802A190075B7A6 /* Build configuration list for PBXProject "PinSpinner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C73F3A326802A190075B7A6;
+			productRefGroup = 6C73F3AB26802A190075B7A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C73F3A926802A190075B7A6 /* PinSpinner */,
+				6C73F3AD26802A190075B7A6 /* PinSpinner WatchKit App */,
+				6C73F3B926802A1A0075B7A6 /* PinSpinner WatchKit Extension */,
+				6C73F3D326802A1B0075B7A6 /* PinSpinnerTests */,
+				6C73F3DE26802A1B0075B7A6 /* PinSpinnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C73F3A826802A190075B7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3AC26802A190075B7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C73F3B426802A1A0075B7A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3B826802A1A0075B7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C73F3CD26802A1B0075B7A6 /* Preview Assets.xcassets in Resources */,
+				6C73F3CA26802A1B0075B7A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3D226802A1B0075B7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3DD26802A1B0075B7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C73F3B626802A1A0075B7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C73F3C426802A1A0075B7A6 /* NotificationController.swift in Sources */,
+				6C73F3C226802A1A0075B7A6 /* ContentView.swift in Sources */,
+				6C73F3C826802A1A0075B7A6 /* ComplicationController.swift in Sources */,
+				6C73F3C026802A1A0075B7A6 /* PinSpinnerApp.swift in Sources */,
+				6C73F3C626802A1A0075B7A6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3D026802A1B0075B7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C73F3D926802A1B0075B7A6 /* PinSpinnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C73F3DB26802A1B0075B7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C73F3E426802A1B0075B7A6 /* PinSpinnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C73F3B126802A190075B7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C73F3AD26802A190075B7A6 /* PinSpinner WatchKit App */;
+			targetProxy = 6C73F3B026802A190075B7A6 /* PBXContainerItemProxy */;
+		};
+		6C73F3BD26802A1A0075B7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C73F3B926802A1A0075B7A6 /* PinSpinner WatchKit Extension */;
+			targetProxy = 6C73F3BC26802A1A0075B7A6 /* PBXContainerItemProxy */;
+		};
+		6C73F3D626802A1B0075B7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C73F3B926802A1A0075B7A6 /* PinSpinner WatchKit Extension */;
+			targetProxy = 6C73F3D526802A1B0075B7A6 /* PBXContainerItemProxy */;
+		};
+		6C73F3E126802A1B0075B7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C73F3AD26802A190075B7A6 /* PinSpinner WatchKit App */;
+			targetProxy = 6C73F3E026802A1B0075B7A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C73F3E626802A1B0075B7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C73F3E726802A1B0075B7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C73F3E926802A1B0075B7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PinSpinner WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PinSpinner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		6C73F3EA26802A1B0075B7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PinSpinner WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PinSpinner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		6C73F3ED26802A1B0075B7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = PinSpinner_WatchKit_Extension;
+				INFOPLIST_FILE = "PinSpinner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		6C73F3EE26802A1B0075B7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = PinSpinner_WatchKit_Extension;
+				INFOPLIST_FILE = "PinSpinner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		6C73F3F126802A1B0075B7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C73F3F226802A1B0075B7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C73F3F426802A1B0075B7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinSpinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinSpinner WatchKit Extension.appex/PinSpinner WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		6C73F3F526802A1B0075B7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinSpinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinSpinner WatchKit Extension.appex/PinSpinner WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		6C73F3F726802A1B0075B7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinSpinnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PinSpinner WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		6C73F3F826802A1B0075B7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinSpinnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PinSpinnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PinSpinner WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C73F3A726802A190075B7A6 /* Build configuration list for PBXProject "PinSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C73F3E626802A1B0075B7A6 /* Debug */,
+				6C73F3E726802A1B0075B7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C73F3E826802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinner WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C73F3E926802A1B0075B7A6 /* Debug */,
+				6C73F3EA26802A1B0075B7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C73F3EC26802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinner WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C73F3ED26802A1B0075B7A6 /* Debug */,
+				6C73F3EE26802A1B0075B7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C73F3F026802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C73F3F126802A1B0075B7A6 /* Debug */,
+				6C73F3F226802A1B0075B7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C73F3F326802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C73F3F426802A1B0075B7A6 /* Debug */,
+				6C73F3F526802A1B0075B7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C73F3F626802A1B0075B7A6 /* Build configuration list for PBXNativeTarget "PinSpinnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C73F3F726802A1B0075B7A6 /* Debug */,
+				6C73F3F826802A1B0075B7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C73F3A426802A190075B7A6 /* Project object */;
+}
