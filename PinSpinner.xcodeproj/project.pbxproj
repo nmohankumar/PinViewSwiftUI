@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C588A232684372D00632410 /* EnterPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C588A222684372D00632410 /* EnterPinView.swift */; };
 		6C73F3AF26802A190075B7A6 /* PinSpinner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6C73F3AE26802A190075B7A6 /* PinSpinner WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6C73F3B426802A1A0075B7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C73F3B326802A1A0075B7A6 /* Assets.xcassets */; };
 		6C73F3BB26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C73F3BA26802A1A0075B7A6 /* PinSpinner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -78,6 +79,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C588A222684372D00632410 /* EnterPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinView.swift; sourceTree = "<group>"; };
 		6C73F3AA26802A190075B7A6 /* PinSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C73F3AE26802A190075B7A6 /* PinSpinner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PinSpinner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C73F3B326802A1A0075B7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				6C73F3BF26802A1A0075B7A6 /* PinSpinnerApp.swift */,
 				6C73F3C126802A1A0075B7A6 /* ContentView.swift */,
+				6C588A222684372D00632410 /* EnterPinView.swift */,
 				6C73F3C326802A1A0075B7A6 /* NotificationController.swift */,
 				6C73F3C526802A1A0075B7A6 /* NotificationView.swift */,
 				6C73F3C726802A1A0075B7A6 /* ComplicationController.swift */,
@@ -388,6 +391,7 @@
 				6C73F3C426802A1A0075B7A6 /* NotificationController.swift in Sources */,
 				6C73F3C226802A1A0075B7A6 /* ContentView.swift in Sources */,
 				6C73F3C826802A1A0075B7A6 /* ComplicationController.swift in Sources */,
+				6C588A232684372D00632410 /* EnterPinView.swift in Sources */,
 				6C73F3C026802A1A0075B7A6 /* PinSpinnerApp.swift in Sources */,
 				6C73F3C626802A1A0075B7A6 /* NotificationView.swift in Sources */,
 			);

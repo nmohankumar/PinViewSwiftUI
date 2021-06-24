@@ -59,6 +59,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(numberOfDigits: 6)
+        ContentView(numberOfDigits: 4)
     }
 }

@@ -12,7 +12,7 @@ struct PinSpinnerApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView(numberOfDigits: 4)
+                EnterPinView()
             }
         }
 
